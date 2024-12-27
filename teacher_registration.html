@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Teacher Registration Form</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Student Registration</a></li>
+                <li><a href="teacher_registration.html">Teacher Registration</a></li>
+                <li><a href="student_report.html">Student Report</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="#">
+            <label for="teacher_name">Teacher Name:</label>
+            <input type="text" id="teacher_name" name="teacher_name" required><br><br>
+
+            <label for="teacher_id">Teacher ID:</label>
+            <input type="text" id="teacher_id" name="teacher_id" required><br><br>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+            <button type="submit">Register Teacher</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 School Management System</p>
+    </footer>
+</body>
+</html>
